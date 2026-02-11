@@ -1,0 +1,16 @@
+.box{
+color:orange;
+
+}
+
+img{
+    width:200px;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+img:hover{
+    width: 400px;
+    opacity: 0;
+   transform: rotate(90deg);
+}
